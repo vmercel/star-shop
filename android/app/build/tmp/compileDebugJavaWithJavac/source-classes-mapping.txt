@@ -1,0 +1,17 @@
+com/mvubangsi/ecommerceapp/MainApplication.java
+ com.mvubangsi.ecommerceapp.MainApplication
+ com.mvubangsi.ecommerceapp.MainApplication$1
+com/mvubangsi/ecommerceapp/ReactNativeFlipper.java
+ com.mvubangsi.ecommerceapp.ReactNativeFlipper
+ com.mvubangsi.ecommerceapp.ReactNativeFlipper$1
+ com.mvubangsi.ecommerceapp.ReactNativeFlipper$2
+ com.mvubangsi.ecommerceapp.ReactNativeFlipper$2$1
+com/mvubangsi/ecommerceapp/generated/BasePackageList.java
+ com.mvubangsi.ecommerceapp.generated.BasePackageList
+com/mvubangsi/ecommerceapp/MainActivity.java
+ com.mvubangsi.ecommerceapp.MainActivity
+ com.mvubangsi.ecommerceapp.MainActivity$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/mvubangsi/ecommerceapp/BuildConfig.java
+ com.mvubangsi.ecommerceapp.BuildConfig

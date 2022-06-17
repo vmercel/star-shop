@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":expo-file-system:androidTest" external.linked.project.path="$MODULE_DIR$/../../../../node_modules/expo-file-system/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/tmp/kotlin-classes/debugAndroidTest" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-3/db000578d696d1fec5bf555335d32e03/transformed/jetified-commons-codec-1.10.jar:/Users/near8east/.gradle/caches/transforms-3/bf86b93b3c079fa11c8a099cdae1b2ea/transformed/jetified-commons-io-1.4.jar:/Users/near8east/.gradle/caches/transforms-3/75dca14fda855a8ebe355d4d6f17e66c/transformed/jetified-okhttp-urlconnection-3.10.0.jar:/Users/near8east/.gradle/caches/transforms-3/81becd7b866ab8652ab4a291978b3e9f/transformed/jetified-okhttp-3.10.0.jar:/Users/near8east/.gradle/caches/transforms-3/989cc5cf714cb9d8ed5f290a9cc53bda/transformed/legacy-support-v4-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/06f8df3e5e5cf77d452d5567f6829753/transformed/jetified-okio-1.14.0.jar:/Users/near8east/.gradle/caches/transforms-3/cbd8a8c3ab7ee053b3feebcd1c8e31ed/transformed/media-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/29de27f1428b14111ba4945d38d4541a/transformed/fragment-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/c640fce2a0459f6ab7d5a48cbbda3280/transformed/legacy-support-core-ui-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/760649076eaa97f02b637ace892a9777/transformed/legacy-support-core-utils-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/89dd893ae3d6e731d101f0d7ed5bbef3/transformed/loader-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/5f89ab391b2c90511a0e20ceb62bfc19/transformed/viewpager-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/f3b526c70a7b612c24d47621b9c81e6c/transformed/coordinatorlayout-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/a9589153c65af34df1b336bcb42258eb/transformed/drawerlayout-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/0a72f0f0c1537b611008d8297e67d0c3/transformed/slidingpanelayout-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/31948d844072f94ee40001c070d3597d/transformed/customview-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/ffcb80c4fa8068a918db00bca70234c3/transformed/swiperefreshlayout-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/32b640239e4376336aaec2999891616a/transformed/asynclayoutinflater-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/ea14187b6bf875cac5a1c82f8563dbb1/transformed/core-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/56e4447d87f7d323dba20c5f26ece5f3/transformed/versionedparcelable-1.0.0-api.jar:/Users/near8east/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar:/Users/near8east/.gradle/caches/transforms-3/6c7e13aa9dac41b67a894a4b3b7377b8/transformed/lifecycle-runtime-2.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/0544eaf741a3fa10f9fbafa41fb4e4ec/transformed/documentfile-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/cacd4733162c599a5f53c854c8cd199a/transformed/localbroadcastmanager-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/04829b6a60b88bea4f88f672839ff79b/transformed/print-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/df53c5c1543eb236f7415734611ca944/transformed/interpolator-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/646161b21a1412cc725796aa90ac4ef0/transformed/cursoradapter-1.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/1f2e5254d180b306d44d0a490b6917c5/transformed/lifecycle-viewmodel-2.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/8d76627ef23436ca1244a45ee996cbfb/transformed/lifecycle-livedata-2.0.0-api.jar:/Users/near8east/.gradle/caches/transforms-3/8fa6e8b9f0308f5c83f621fd40e4143c/transformed/lifecycle-livedata-core-2.0.0-api.jar:/Users/near8east/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar:/Users/near8east/.gradle/caches/transforms-3/b89320ca1827fcd4965b021b20fe162e/transformed/core-runtime-2.0.0-api.jar:/Users/near8east/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar:/Users/near8east/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar:/Users/near8east/.gradle/caches/transforms-3/c9332236f59be908d1462bd0d2432739/transformed/jetified-kotlin-stdlib-jdk7-1.4.21.jar:/Users/near8east/.gradle/caches/transforms-3/c0fe9fae09e24256a38ca8ba3bb62c66/transformed/jetified-kotlin-stdlib-1.4.21.jar:/Users/near8east/.gradle/caches/transforms-3/c0aa06d121c1b89ab8683da5f0166cf9/transformed/jetified-kotlin-stdlib-common-1.4.21.jar:/Users/near8east/.gradle/caches/transforms-3/2e1e037b9a0c50b53f00b39996c67b12/transformed/jetified-annotations-13.0.jar:/Users/near8east/Library/Android/sdk/platforms/android-30/android.jar:/Users/near8east/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="expo-file-system_debug" />
+          <option name="jvmTarget" value="1.6" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/tmp/kotlin-classes/debug" />
+              <option value="$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/intermediates/javac/debug/classes" />
+              <option value="$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/intermediates/compile_library_classes_jar/debug/classes.jar" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/src/main/res;file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/src/debug/res;file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/src/androidTest/res;file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/aidl_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/ap_generated_sources/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/renderscript_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/res/resValues/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/res/rs/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/build/generated/source/buildConfig/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/src/androidTest" />
+    <content url="file://$MODULE_DIR$/../../../../node_modules/expo-file-system/android/src/androidTestDebug" />
+    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="e-commerce-app.expo-file-system.main" scope="TEST" />
+    <orderEntry type="module" module-name="e-commerce-app.unimodules-core.main" scope="TEST" />
+    <orderEntry type="module" module-name="e-commerce-app.expo-modules-core.main" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: commons-io:commons-io:1.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.14.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-v4:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="e-commerce-app.expo-file-system.main" />
+</module>

@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mvubangsi.ecommerceapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:4:3-75
+11-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:3:3-77
+13-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:3:20-75
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:5:3-63
+14-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:5:20-61
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:6:3-78
+15-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:6:20-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/near8east/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/near8east/.gradle/caches/transforms-3/7ced98fae9ea2b5aa64e54aefef0d400/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:expo-updates] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+17-->[:expo-updates] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+18
+19    <queries>
+19-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-22:15
+20
+21        <!-- Query open documents -->
+22        <intent>
+22-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
+23            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+23-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-79
+23-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:21-76
+24        </intent>
+25    </queries>
+26
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.android.installreferrer:installreferrer:1.0] /Users/near8east/.gradle/caches/transforms-3/4669d5221e5d41a9cbc51333eb5659b6/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+27-->[com.android.installreferrer:installreferrer:1.0] /Users/near8east/.gradle/caches/transforms-3/4669d5221e5d41a9cbc51333eb5659b6/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+28
+29    <application
+29-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:3-26:17
+30        android:name="com.mvubangsi.ecommerceapp.MainApplication"
+30-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:16-47
+31        android:allowBackup="true"
+31-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:162-188
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.0] /Users/near8east/.gradle/caches/transforms-3/fe3cf0882eb40046447bd9893532f7c5/transformed/core-1.3.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:81-115
+35        android:label="@string/app_name"
+35-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:48-80
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:116-161
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme"
+38-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:189-220
+39        android:usesCleartextTraffic="true" >
+39-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:7:221-256
+40        <meta-data
+40-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:8:5-82
+41            android:name="expo.modules.updates.ENABLED"
+41-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:8:16-59
+42            android:value="true" />
+42-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:8:60-80
+43        <meta-data
+43-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:9:5-93
+44            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+44-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:9:16-68
+45            android:value="42.0.0" />
+45-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:9:69-91
+46        <meta-data
+46-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:10:5-105
+47            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+47-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:10:16-80
+48            android:value="ALWAYS" />
+48-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:10:81-103
+49        <meta-data
+49-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:11:5-99
+50            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+50-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:11:16-79
+51            android:value="0" />
+51-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:11:80-97
+52        <meta-data
+52-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:12:5-128
+53            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+53-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:12:16-67
+54            android:value="https://exp.host/@mvubangsi/e-commerce-app" />
+54-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:12:68-126
+55
+56        <activity
+56-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:5-24:16
+57            android:name="com.mvubangsi.ecommerceapp.MainActivity"
+57-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:15-43
+58            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+58-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:77-154
+59            android:label="@string/app_name"
+59-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:44-76
+60            android:launchMode="singleTask"
+60-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:155-186
+61            android:screenOrientation="unspecified"
+61-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:276-315
+62            android:theme="@style/Theme.App.SplashScreen"
+62-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:230-275
+63            android:windowSoftInputMode="adjustResize" >
+63-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:13:187-229
+64            <intent-filter>
+64-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:14:7-17:23
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:15:9-60
+65-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:15:17-58
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:16:9-68
+67-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:16:19-66
+68            </intent-filter>
+69            <intent-filter>
+69-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:18:7-23:23
+70                <action android:name="android.intent.action.VIEW" />
+70-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:19:9-60
+70-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:19:17-58
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:20:9-67
+72-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:20:19-65
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:21:9-69
+73-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:21:19-67
+74
+75                <data android:scheme="com.mvubangsi.ecommerceapp" />
+75-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:22:9-60
+75-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:22:15-58
+76            </intent-filter>
+77        </activity>
+78        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+78-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:25:5-81
+78-->/Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/android/app/src/main/AndroidManifest.xml:25:15-79
+79
+80        <meta-data
+80-->[:unimodules-react-native-adapter] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:91
+81            android:name="org.unimodules.core.AppLoader#react-native-headless"
+81-->[:unimodules-react-native-adapter] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-79
+82            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+82-->[:unimodules-react-native-adapter] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-88
+83
+84        <provider
+84-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-34:20
+85            android:name="expo.modules.filesystem.FileSystemFileProvider"
+85-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-74
+86            android:authorities="com.mvubangsi.ecommerceapp.FileSystemFileProvider"
+86-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-74
+87            android:exported="false"
+87-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-37
+88            android:grantUriPermissions="true" >
+88-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-47
+89            <meta-data
+89-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-33:70
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:17-67
+91                android:resource="@xml/file_system_provider_paths" />
+91-->[:expo-file-system] /Users/near8east/Desktop/MERCEL/APPS/react-native-ecommerce/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:17-67
+92        </provider>
+93
+94        <service
+94-->[androidx.room:room-runtime:2.1.0] /Users/near8east/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+95            android:name="androidx.room.MultiInstanceInvalidationService"
+95-->[androidx.room:room-runtime:2.1.0] /Users/near8east/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+96            android:exported="false" />
+96-->[androidx.room:room-runtime:2.1.0] /Users/near8east/.gradle/caches/transforms-3/3b5db4b3b22ae452a34a6490900f58b2/transformed/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+97    </application>
+98
+99</manifest>

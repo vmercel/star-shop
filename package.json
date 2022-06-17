@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.3.1",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.0.6",
+    "@react-navigation/stack": "^6.2.1",
+    "expo": "^45.0.5",
+    "expo-cli": "^4.3.0",
+    "expo-splash-screen": "~0.11.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-updates": "^0.13.2",
+    "firebase": "^8.10.1",
+    "lodash.filter": "^4.6.0",
+    "react": "17.0.2",
+    "react-dom": "16.13.1",
+    "react-image-file-resizer": "^0.4.8",
+    "react-native": "0.68.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-paper": "^4.12.1",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-unimodules": "^0.15.0",
+    "react-native-web": "^0.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true,
+  "name": "react-native-ecommerce",
+  "version": "1.0.0"
+}
