@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
+
 import { ProductsList } from './screens/ProductsList.js';
 import { ProductDetails } from './screens/ProductDetails.js';
 import { Cart } from './screens/Cart.js';
@@ -13,6 +14,9 @@ import { CartProvider } from './CartContext.js';
 import Login from './components/login';
 import Signup from './components/signup';
 import Dashboard from './components/dashboard';
+import Landing from './components/Landing';
+//import { Example} from './components/ModalDropdown.js';
+
 
 
 
@@ -20,9 +24,23 @@ const Stack = createStackNavigator();
 
 function App() {
     return (
+        <>
+
 
         <NavigationContainer >
+
         <Stack.Navigator >
+
+        <Stack.Screen name = 'Landing'
+        component = { Landing }
+        options = {
+            ({ navigation }) => ({
+                title: 'Landing',
+                headerTitleStyle: styles.headerTitle
+            })
+        }
+        />
+
         <Stack.Screen name = 'Signup'
         component = { Signup }
         options = {
@@ -56,7 +74,7 @@ function App() {
         />
         </Stack.Navigator> 
         </NavigationContainer >
-
+        </>
     );
 }
 

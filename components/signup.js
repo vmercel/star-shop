@@ -61,24 +61,23 @@ export default class Signup extends Component {
                 /View>
             )
         }
-        return ( <
-            View style = { styles.container } >
-            <
-            TextInput style = { styles.inputStyle }
+        return (<>
+             <View style = { styles.container } >
+            <TextInput style = { styles.inputStyle }
             placeholder = "Name"
             value = { this.state.displayName }
             onChangeText = {
                 (val) => this.updateInputVal(val, 'displayName')
             }
-            />       <
-            TextInput style = { styles.inputStyle }
+            />       
+            <TextInput style = { styles.inputStyle }
             placeholder = "Email"
             value = { this.state.email }
             onChangeText = {
                 (val) => this.updateInputVal(val, 'email')
             }
-            /> <
-            TextInput style = { styles.inputStyle }
+            /> 
+            <TextInput style = { styles.inputStyle }
             placeholder = "Password"
             value = { this.state.password }
             onChangeText = {
@@ -86,22 +85,22 @@ export default class Signup extends Component {
             }
             maxLength = { 15 }
             secureTextEntry = { true }
-            />    <
-            Button color = "#3740FE"
+            />    
+            <Button color = "#3740FE"
             title = "Signup"
             onPress = {
                 () => this.registerUser()
             }
             />
-
-            <
-            Text style = { styles.loginText }
+            </View >
+            <Text style = { styles.loginText }
             onPress = {
                 () => this.props.navigation.navigate('Login')
             } >
-            Already Registered ? Click here to login <
-            /Text>                           < /
-            View >
+            Already Registered ? Click here to login 
+            </Text>                           
+            
+            </>
         );
     }
 }

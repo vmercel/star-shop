@@ -11,6 +11,7 @@ import Logout from './logout';
 //import Contact from './Profile/profile';
 import ProfileCard from './profile';
 //import Market from './market/Market';
+import DrawerNavigation from "../routes/DrawerNavigation";
 
 
 import { ProductsList } from '../screens/ProductsList.js';
@@ -18,9 +19,26 @@ import { ProductDetails } from '../screens/ProductDetails.js';
 import { Cart } from '../screens/Cart.js';
 import { CartIcon } from './CartIcon.js';
 import { CartProvider } from '../CartContext.js';
+import { Menu } from 'react-native-paper';
+//import { TopNavigation } from './Header.js';
+import DropDOWN from './DropDOWN';
 
 
 const Stack = createStackNavigator();
+
+const rendmenu=()=>{
+  return(
+    <Menu
+    visible={visible}
+    onDismiss={closeMenu}
+    anchor={<Button onPress={openMenu}>Size</Button>}>
+    <Menu.Item onPress={() => {closeMenu}} title="small" />
+    <Menu.Item onPress={() => {}} title="medium" />
+    <Divider />
+    <Menu.Item onPress={() => {}} title="large" />
+  </Menu>   
+  );
+}
 
 function MarketStack() {
   return (
@@ -53,7 +71,8 @@ function MarketStack() {
 function HomeScreen() {
   return (
     //<MediaScreen />
-    <MarketStack />
+    //<MarketStack />
+    <DrawerNavigation />
   );
 }
 

@@ -26,15 +26,20 @@ export default class Logout extends Component {
             displayName: firebase.auth().currentUser.displayName,
             uid: firebase.auth().currentUser.uid
         }
-        return ( <View style = { styles.container } >
-            <Text style = { styles.textStyle } >
+        return ( 
+            <>
+            <Text style = { styles.container } >
             Hello, { this.state.displayName } 
             </Text>
+        
+        <View style = { styles.container } >
+
             <Button color = "#3740FE"
             title = "Logout"
             onPress={() => navigation.navigate('Signup')}
             /> 
             </View >
+            </>
         );
     }
 }

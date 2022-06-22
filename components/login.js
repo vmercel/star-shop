@@ -58,7 +58,8 @@ export default class Login extends Component {
                 /View>
             )
         }
-        return ( <
+        return ( <>
+            <
             View style = { styles.container } >
             <
             TextInput style = { styles.inputStyle }
@@ -82,15 +83,14 @@ export default class Login extends Component {
                 () => this.userLogin()
             }
             />   
-
-            <
-            Text style = { styles.loginText }
+            </View>
+            <Text style = { styles.loginText }
             onPress = {
                 () => this.props.navigation.navigate('Signup')
             } >
-            Don 't have account? Click here to signup < /
-            Text > <
-            /View>
+            Don 't have account? Click here to signup 
+            </Text >
+            </>
         );
     }
 }

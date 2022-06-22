@@ -28,16 +28,19 @@ export default class ProfileCard extends Component {
             displayName: firebase.auth().currentUser.displayName,
             uid: firebase.auth().currentUser.uid
         }
-        return ( <View style = { styles.container } >
-            <Text style = { styles.textStyle } >
+        return ( 
+            <>
+            <Text style = { styles.container } >
             Hello, { this.state.displayName } 
             </Text>
+        <View style = { styles.container } >
             <CreateCard />
             <Button color = "#3740FE"
             title = "Logout"
             onPress={() => navigation.navigate('Signup')}
             /> 
             </View >
+            </>
         );
     }
 }

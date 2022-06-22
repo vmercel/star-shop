@@ -2,6 +2,10 @@ import React, {useEffect, useState, Component} from 'react';
 import { View, Text, FlatList, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import {Card, Button , Title ,Paragraph } from 'react-native-paper';
 //import { useNavigation } from "@react-navigation/native";
+//import DrawerNavigation from "../routes/DrawerNavigation";
+
+
+
 
 
 import { Product } from '../components/Product.js';
@@ -60,6 +64,8 @@ class MySearchBarO extends Component {
   
   render() {
     return (
+<>
+
       <View style={styles.container}>
         <SearchBar
           placeholder="Search Here..."
@@ -76,6 +82,7 @@ class MySearchBarO extends Component {
           keyExtractor={(item) => item.id}
         />
       </View>
+</>
     );
   }
 }
@@ -84,8 +91,8 @@ class MySearchBarO extends Component {
   
 
 
-export function ProductsList ({navigation}) {
-
+export function ProductsList ({ navigation}) {
+	
   function renderProduct({item: product}) {
     return (
       <Product {...product} 

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "star-shop",
-    "slug": "star-shop",
+    "name": "e-commerce-app",
+    "slug": "e-commerce-app",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
@@ -17,15 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.mvubangsi.ecommerceapp"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.mvubangsi.starshopapp"
+      "package": "com.mvubangsi.ecommerceapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
